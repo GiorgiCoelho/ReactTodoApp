@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap');
+
+body {
+  background: rgb(171, 71, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 71, 176, 1) 0%,
+    rgba(250, 164, 255, 1) 22%,
+    rgba(181, 212, 231, 1) 80%
+  );
+  font-family: "Quicksand", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
